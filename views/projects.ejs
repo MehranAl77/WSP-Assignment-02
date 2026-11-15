@@ -1,0 +1,49 @@
+
+<%- include('partials/header') %>
+
+<main class="container mt-5">
+  <h1 class="text-center mb-4">My Projects</h1>
+
+  <p class="text-center mb-5">
+    Here are some examples of my creative work.
+  </p>
+
+  <!-- Introduction Video -->
+  <h2 class="text-center mb-4">Introduction Video</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <video controls class="w-100 rounded">
+        <source src="/videos/intro.mp4" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+
+      <p class="text-center mt-3">
+        A short introduction about my creative interests.
+      </p>
+    </div>
+  </div>
+
+  <!-- Graphic Design Poster -->
+  <h2 class="text-center mt-5 mb-4">Graphic Design Poster</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="/images/poster.png"
+             class="card-img-top"
+             alt="Graphic design poster">
+
+        <div class="card-body">
+          <p class="card-text">
+            A personal poster design created to showcase
+            my interest in graphic design.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<%- include('partials/footer') %>
